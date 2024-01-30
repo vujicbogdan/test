@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: palevioletred;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hide content outside the container */
+}
+#naslov {
+  font-size: 5rem;
+  color: gold;
+  position: absolute;
+  text-align: center;
+}
